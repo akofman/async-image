@@ -1,3 +1,5 @@
+/* global Image */
+
 const loadImage = (src) => {
   const img = new Image();
   return new Promise((resolve, reject) => {
@@ -10,6 +12,5 @@ const loadImage = (src) => {
     img.src = src;
   });
 };
-
 
 export default loadImage;
