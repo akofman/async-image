@@ -1,7 +1,7 @@
 {
   "name": "async-image",
   "version": "1.0.0",
-  "description": "Describe async-image here",
+  "description": "Just an asynchronous image loader without any dependency.",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "module": "es/index.js",
@@ -26,8 +26,14 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": {
+    "name": "Alexis Kofman",
+    "email": "alexis.kofman@gmail.com",
+    "url": "http://twitter.com/alexiskofman"
+  },
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akofman/async-image.git"
+  }
 }
